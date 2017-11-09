@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			.d11{
+				width: 350px;
+				height: 350px;
+				margin: auto;
+				/*background: orangered;*/
+			}
+			.d1,.d2,.d3,.d4,.d6,.d7,.d8,.d9{
+				width: 100px;
+				height: 100px;
+				float: left;
+				border-radius:50% ;
+				margin:5px;
+				background: dodgerblue;
+				animation: name infinite  linear 0.8s;
+			}
+			.d5{
+				width: 100px;
+				height: 100px;
+				float: left;
+				border-radius:30%;
+				margin:5px;
+				background: orange;
+			}
+			.d1{
+				animation-delay: 0.2s;
+			}
+			.d2{
+				animation-delay: 0.3s;
+			}
+			
+			.d3{
+				animation-delay: 0.4s;
+			}
+			/*.d5{
+				animation: name infinite 1s;
+				animation-delay: 0.1;
+			}*/
+			.d6{
+				animation-delay: 0.5s;
+			}
+			.d9{
+				animation-delay: 0.6s;
+			}
+			.d8{
+				animation-delay: 0.7s;
+			}
+			.d7{
+				animation-delay: 0.8s;
+			}
+			.d4{
+				animation-delay: 0.9s;
+			}
+			
+			@keyframes name{
+				10%{
+					background: red;
+				}
+				/*10%{
+					background: orchid;
+				}
+				*/
+				50%{
+					background: dodgerblue;
+				}
+d			}
+		</style>
+	</head>
+	<body>
+		<div class="d11">
+			<div class="d1"></div>
+			<div class="d2"></div>
+			<div class="d3"></div>
+			<div class="d4"></div>
+			<div class="d5"></div>
+			<div class="d6"></div>
+			<div class="d7"></div>
+			<div class="d8"></div>
+			<div class="d9"></div>
+		</div>
+	</body>
+</html>
